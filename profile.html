@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS  JS Template </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Custom Css File-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!--Header-->
+   <header id="header">
+    <div class="container">
+      <a href="index.html" class="logo"><img src="images/logo.png"></a>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Type Something" id="search">
+      </div>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li ><a href="browse.html">Browse</a></li>
+          <li ><a href="details.html">Details</a></li>
+          <li><a href="streams.html">Streams</a></li>
+          <li><a href="profile.html" class="profile"><span>Profile</span> <img src="images/profile-header.jpg" alt=""></a></li>
+        </ul>
+      </nav> 
+      <div class="bars">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+  <!--//Header//-->
+  <div class="container">
+    <!---Main Page Content-->
+    <main class="transition-fade" id="swup">
+      <section class="user-info">
+        <div class="user-info-left">
+          <img src="images/profile.jpg" alt="">
+          <div>
+            <a href="#">Offline</a>
+            <h2>Alan Smithee</h2>
+            <p>You Haven't Gone Live yet. Go Live By Touching The Button Below.</p>
+            <button>Strart Live Stream</button>
+          </div>
+        </div>
+        <div class="user-info-right">
+          <div>
+            <p>Games Downloaded</p>
+            <span>5</span>
+          </div>
+          <div>
+            <p>Friends Online</p>
+            <span>16</span>
+          </div>
+          <div>
+            <p>Live Streams</p>
+            <span>None</span>
+          </div>
+          <div>
+            <p>Clips</p>
+            <span>26</span>
+          </div>
+        </div>
+      </section>
+      <section class="library">
+        <div class="section-title">
+          <h1><span>Your Gaming</span> Library</h1>
+        </div>
+        <div class="libraries">
+          <div class="lib">
+            <img src="images/game-01.jpg" alt="game">
+            <div>
+              <h4>Dota 2</h4>
+              <p>Sandbox</p>
+            </div>
+            <div>
+              <h4>Date Added</h4>
+              <p>24/08/2036</p>
+            </div>
+            <div>
+              <h4>Hours Played</h4>
+              <p>634 H 22 Mins</p>
+            </div>
+            <div>
+              <h4>Currently</h4>
+              <p>Downloaded</p>
+            </div>
+            <button id="download">Download</button>
+          </div>
+          <div class="lib">
+            <img src="images/game-02.jpg" alt="game">
+            <div>
+              <h4>Fortnite</h4>
+              <p>Sandbox</p>
+            </div>
+            <div>
+              <h4>Date Added</h4>
+              <p>22/06/2036</p>
+            </div>
+            <div>
+              <h4>Hours Played</h4>
+              <p>740 H 52 Mins</p>
+            </div>
+            <div>
+              <h4>Currently</h4>
+              <p>Downloaded</p>
+            </div>
+            <button id="download">Download</button>
+          </div>
+          <div class="lib">
+            <img src="images/game-03.jpg" alt="game">
+            <div>
+              <h4>CS-GO</h4>
+              <p>Sandbox</p>
+            </div>
+            <div>
+              <h4>Date Added</h4>
+              <p>21/04/2036</p>
+            </div>
+            <div>
+              <h4>Hours Played</h4>
+              <p>892 H 22 Mins</p>
+            </div>
+            <div>
+              <h4>Currently</h4>
+              <p>Downloaded</p>
+            </div>
+            <button id="download">Download</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!---//Main Page//-->
+    <!--Footer-->
+    <!--//Footer//-->
+    <footer>
+      <p>Copyright &COPY; 2023. All rights reserved.<br><br>
+        Design: <span>Maryam Ali</span></p>
+    </footer>
+  </div>
+  <script src="https://unpkg.com/swup@3"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
